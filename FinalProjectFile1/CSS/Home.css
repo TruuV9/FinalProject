@@ -1,16 +1,94 @@
-.container{
-    border: 2px solid;
+#container{
+    background-color: #dedede;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.cards_container{
-    border: 2px solid aqua;
-}
+
 .h1{
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 65px;
+    scale: 2.8;
 }
-.img_con{
-    background-color: blue;
-}
+
 .h{
-    font-size: large;
+    scale: 1.6;
+    margin-top: 120px;
+}
+.img1{
+    height: 290px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+.card{
+    border: 2px solid;
+    width: 22%;
+    text-align: center;
+    display: inline-block;
+    height: 520px;
+    margin-top: 7%;
+    background-color: rgb(216, 226, 226);
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: .5s;     
+}
+.card:hover{
+    background-color: #4F709C;
+    cursor: pointer;
+    box-shadow: 10px 13px 10px 10px rgba(59, 59, 59, 0.683); 
+}
+
+.card:hover .card-icon,
+.card-icon:focus {
+  filter: invert(89%);
+  transition: .5s; 
+
+}
+/* King Abdulaziz word */
+.KingAbdu{
+    background-color: #dedede;
+}
+.KingAbdu{
+    display: flex;
+    justify-content: space-around;
+}
+.Word{
+    margin-top: 10px;
+    width: 600px;
+    height: fit-content;
+    text-align: -webkit-center;
+    position: relative;
+    top: 200px;
+    padding: 26px;
+}
+.Word{
+    box-shadow: 12px 12px 2px 1px rgba(80, 80, 80, 0.453);
+    transition: 1s;
+}
+.KingWord{
+    scale: 2;
+    margin: 13px;
+    text-shadow: 1px 1px 2px rgb(185, 181, 181), 0 0 1em rgb(198, 198, 198), 0 0 0.2em rgb(119, 112, 112);
+}
+.KingName{
+    position: absolute;
+    text-shadow: 1px 1px 2px rgb(185, 181, 181), 0 0 1em rgb(198, 198, 198), 0 0 0.2em rgb(119, 112, 112);
+}
+.KingPhoto{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.KingPic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 13px 10px 10px rgba(80, 80, 80, 0.453); 
 }
