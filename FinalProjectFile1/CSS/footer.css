@@ -1,0 +1,20 @@
+footer {
+  color: white;
+  background-color:#213555 ;
+  text-align: center;
+  margin-top:500px;
+}
+.footer-div {
+    position: relative;
+  bottom: 30px;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100px;
+}
+
+
