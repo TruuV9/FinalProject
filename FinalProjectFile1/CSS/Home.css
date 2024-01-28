@@ -1,0 +1,16 @@
+.container{
+    border: 2px solid;
+}
+.cards_container{
+    border: 2px solid aqua;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+}
+.img_con{
+    background-color: blue;
+}
+.h{
+    font-size: large;
+}
