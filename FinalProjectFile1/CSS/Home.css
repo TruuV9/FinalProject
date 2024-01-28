@@ -1,3 +1,6 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #container{
     background-color: #dedede;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -8,7 +11,8 @@
     justify-content: center;
     position: relative;
     top: 65px;
-    scale: 2.8;
+    scale: 2.2;
+    color: #213555;
 }
 
 .h{
@@ -73,13 +77,13 @@
     transition: 1s;
 }
 .KingWord{
-    scale: 2;
+    scale: 1.5;
     margin: 13px;
-    text-shadow: 1px 1px 2px rgb(185, 181, 181), 0 0 1em rgb(198, 198, 198), 0 0 0.2em rgb(119, 112, 112);
 }
 .KingName{
     position: absolute;
-    text-shadow: 1px 1px 2px rgb(185, 181, 181), 0 0 1em rgb(198, 198, 198), 0 0 0.2em rgb(119, 112, 112);
+    color: gray;
+    
 }
 .KingPhoto{
     border-radius: 50%;
@@ -91,4 +95,28 @@
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 10px 13px 10px 10px rgba(80, 80, 80, 0.453); 
+}
+/* section */
+#idk{
+    background-color: #f0f0f0;
+    height: 700px;
+}
+.about{
+    position: absolute;
+    scale: 2;
+    
+}
+.about_con{
+    position: relative;
+    right: 250px;
+}
+.p_con{
+    position: relative;
+    left: 350px;
+    
+}
+
+.p_con h3{
+    color: #213555;
+    text-align: center;
 }
