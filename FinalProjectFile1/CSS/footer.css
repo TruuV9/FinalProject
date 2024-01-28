@@ -16,5 +16,12 @@ footer {
   gap: 40px;
   height: 100px;
 }
-
-
+.footer-links a{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+}
+.footer-links a:hover{
+  color: #E5D283;
+  transition: 0.5s;
+}
