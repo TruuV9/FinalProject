@@ -90,11 +90,17 @@ body{
 .Word{
     box-shadow: 12px 12px 2px 1px rgba(80, 80, 80, 0.453);
     transition: 1s;
+    transition: transform 0.3s ease-in-out;
 }
 .KingWord{
     scale: 1.5;
     margin: 13px;
 }
+.Word:hover{
+    transform: scale(1.099);
+    transition: 1s;
+}
+
 .KingName{
     position: absolute;
     color: gray;
@@ -166,4 +172,28 @@ body{
     height: 200px;
     margin: 40px;
     font-size: large;
+}
+
+/* Lawyers */
+.law_con{
+    display: flex;
+    justify-content: center;
+}
+.Lawyers{
+    width: 90%;
+    background-color: aqua;
+}
+.law_card_con{
+    border: 2px solid;
+    background-color: #213555;
+    display: flex;
+    justify-content: space-around;
+}
+.law_card{
+    border: 2px solid;
+    background-color: #dedede;
+}
+.law_title{
+    display: flex;
+    justify-content: center;
 }
