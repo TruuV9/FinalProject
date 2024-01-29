@@ -1,9 +1,16 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/IMGS/white-background-with-zigzag-pattern-design_1017-33197.jpg");
+}
+.cont{
+    display: flex;
+    justify-content: center;
 }
 #container{
-    background-color: #dedede;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: #d1d1d1;
+    width: 88%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .h1{
@@ -12,7 +19,7 @@ body{
     position: relative;
     top: 65px;
     scale: 2.2;
-    color: #213555;
+    color: black;
 }
 
 .h{
@@ -32,19 +39,18 @@ body{
 
 }
 .card{
-    border: 2px solid;
     width: 22%;
     text-align: center;
     display: inline-block;
     height: 520px;
     margin-top: 7%;
-    background-color: rgb(216, 226, 226);
+    background-color: #dedede;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: .5s;     
 }
 .card:hover{
-    background-color: #4F709C;
+    background-color: #424769;
     cursor: pointer;
     box-shadow: 10px 13px 10px 10px rgba(59, 59, 59, 0.683); 
 }
@@ -56,8 +62,16 @@ body{
 
 }
 /* King Abdulaziz word */
+.king_con{
+    display: flex;
+    justify-content: center;
+}
 .KingAbdu{
+    margin: 20px;
     background-color: #dedede;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .KingAbdu{
     display: flex;
@@ -94,38 +108,61 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 10px 13px 10px 10px rgba(80, 80, 80, 0.453); 
 }
 /* section */
+.idk_con{
+    display: flex;
+    justify-content: center;
+}
 #idk{
-    background-color: #f0f0f0;
-    height: 700px;
+    background-color: #dedede;
+    width: 89%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.about{
-    position: absolute;
-    scale: 2;
-    
-}
-.about_con{
-    position: relative;
-    right: 250px;
-}   
+   
 .p_con{
-    border: 2px solid;
     height: 140px;
     padding: 20px;
 }
 .p_con h3{
     color: #213555;
     text-align: center;
-    scale: 1.3;
+    scale: 1.6;
 }
+
 .card2{
-    border: 2px solid black;
-    
+    width: 500px;
+    margin: 15px;
+    height: 550px;
+    background-color: #dedede;
+    z-index: 101;
+    box-shadow: 12px 12px 2px 1px rgba(80, 80, 80, 0.453);
+    transition: .5s;
+}
+.card2:hover{
+    cursor: pointer;
+    transition: 1s;
 }
 .card2_con{
-    border: 2px solid;
     display: flex;
     justify-content: center;
+}
+.iconjus_con{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    scale: 1.6;
+    margin-top: 20px;
+}
+.abt{
+    display: flex;
+    text-align: center;
+    height: 200px;
+    margin: 40px;
+    font-size: large;
 }
