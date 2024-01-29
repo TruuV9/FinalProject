@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,17 +65,29 @@
     <section class="form">
         <form class="req">
             <div class="form1">
-                <input class="input" type="text" name="name" id="name" placeholder="الاسم">
-                <input class="input" dir="rtl" type="tel"  name="phone" id="phone" placeholder="رقم الهاتف">
+                <input class="input" type="text" name="name" id="name" placeholder="الاسم" required>
+                <input class="input" dir="rtl" type="tel"  name="phone" id="phone" placeholder="رقم الهاتف" required>
             </div>
             <div class="form1">
-                <h5 id="att">سلوب الحضور</h5>
-                <select class="input req1" name="where" id="where">
+                <h5 class="label">أسلوب الحضور</h5>
+                <select class="input req1" name="where" id="where" required>
                     <option value="place">حضوري</option>
                     <option value="net">عن بعد</option>
                 </select>
             </div>
-
+            <div class="form1">
+                <h5 class="label">نوع الخدمة</h5>
+                <select class="input req1" name="ser" id="ser" required>
+                    <option class="option1" value="conS">جلسة استشارية</option>
+                    <option class="option1" value="conT">صياغة عقد</option>
+                    <option class="option1" value="wilL">كتابة وصية</option>
+                    <option class="option1" value="comP">مناقشة الأمور التجارية</option>
+                    <option class="option1" value="lawY">تمثيل في المحكمة</option>
+                </select>
+            </div>
+            <div class="form1">
+                <input class="input sub req1" type="submit" value="حجز">
+            </div>
         </form>
     </section>
 </body>
