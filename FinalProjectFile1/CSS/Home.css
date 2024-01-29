@@ -19,6 +19,7 @@ body{
     position: relative;
     top: 65px;
     scale: 2.2;
+    margin: 20px;
     color: black;
 }
 
@@ -39,7 +40,7 @@ body{
 
 }
 .card{
-    width: 22%;
+    width: 27%;
     text-align: center;
     display: inline-block;
     height: 520px;
@@ -116,7 +117,7 @@ body{
 }
 #idk{
     background-color: #dedede;
-    width: 89%;
+    width: 90%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -132,17 +133,17 @@ body{
 }
 
 .card2{
-    width: 500px;
-    margin: 15px;
+    width: 480px;
+    margin: 26px;
     height: 550px;
     background-color: #dedede;
     z-index: 101;
     box-shadow: 12px 12px 2px 1px rgba(80, 80, 80, 0.453);
-    transition: .5s;
+    transition: transform 0.3s ease-in-out;
 }
 .card2:hover{
-    cursor: pointer;
-    transition: 1s;
+    transform: scale(1.09);
+    transition: .9s;
 }
 .card2_con{
     display: flex;
