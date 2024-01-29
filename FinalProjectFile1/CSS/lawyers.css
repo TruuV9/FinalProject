@@ -29,6 +29,10 @@ h1{
     scale: 1.25;
     position: absolute;
 }
+.ali{
+    width: 300px;
+    height: 400px;
+}
 .moh{
     position: relative;
     right: 100px;
