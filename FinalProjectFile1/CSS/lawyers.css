@@ -1,76 +1,88 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("/IMGS/white-background-with-zigzag-pattern-design_1017-33197.jpg");
-    height: 500px;
+    height: 300px;
 }
 h1{
     color: #2e4a77;   
 }
 .cont{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-right: 100px;
 }
-.container {
-    position: relative;
-    top:400px;
+.img_and_abt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     display: flex;
     justify-content: center;
-    gap: 100px;
     background-color: gainsboro;
+    gap: 100px;
     width: 90%;
+    margin-right: 50px;
 }
-.img1 {
+.certificate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gainsboro;
+    height: 200px;
+    width: 90%;
+    margin-right: 50px;
+}
+.img1{
     width: fit-content;
-    height: 700px;
+    height: 500px;
     position: relative;
     bottom:90px;
 }
 #img1{
+    position: relative;
+    right:110px;
     scale: 1.25;
-    position: absolute;
+    
+}
+.abdullah{
+    width: 400px;
+    height: 500px;
 }
 .ali{
     width: 300px;
     height: 400px;
 }
-.moh{
-    position: relative;
-    right: 100px;
-}
 #moh{
-    position: relative;
-    right: 290px;
+    margin-right:150px ;
     top: 30px;
     scale: 2.5;
 }
+.info{
+    padding-right: 0px;
+    margin-top: 175px;
+}
 .info h1{
-    position: relative;
-    right: 230px;
-    top: 30px;
+    margin-right: 130px;
     scale: 2.5;
 }
 .info p{
-    scale: 1.25;
-    position: relative;
-    top: 250px;
-    left: 200px;
+    scale: 1.5;
+    margin-top: 100px;
 }
 .info2 {
-    position: relative;
-    top:500px;
+    margin-right: 1000px;
 }
 .info2 h1{
-    scale: 1.7;
+    scale: 1.9;
+    margin-right: 100px;
 }
 .info2 h2{
     scale: 1.1;
-    position: relative;
-    top: 20px;
-    left: 90px;
+    margin-top: 20px;
+    margin-left: 90px;
     color: #2e4a77
 }
 .info2 p{
-    position: relative;
-    top: 50px;
-    left: 70px;
+    scale: 1.2;
+    margin-top: 30px;
 }
