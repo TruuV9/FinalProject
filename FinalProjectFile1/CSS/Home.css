@@ -10,6 +10,7 @@ body{
     background-color: #d1d1d1;
     width: 88%;
     border-radius: 20px;
+    padding: 50px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -17,10 +18,10 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 65px;
-    scale: 2.2;
+    scale: 3.8;
     margin: 20px;
     color: black;
+    
 }
 
 .h{
@@ -46,7 +47,6 @@ body{
     height: 520px;
     margin-top: 7%;
     background-color: #dedede;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: .5s;     
 }
@@ -181,37 +181,64 @@ body{
 }
 .Lawyers{
     width: 90%;
-    background-color: aqua;
+    background-color: #d1d1d1;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .law_card_con{
-    border: 2px solid;
-    background-color: #213555;
+    background-color: #d1d1d1;
     display: flex;
     justify-content: space-around;
 }
 .law_card{
-    border: 2px solid;
     background-color: #dedede;
-    margin: 60px;
+    margin: 20px;
+    margin-top: 90px;
+    padding: 120px;
     width: fit-content;
     transition: transform 0.3s ease-in-out;
-    display: flex;
-    justify-content: start;
+    display: inline-block;
     text-decoration: none;
     color: black;
+    height: 318px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
 }
-.law_card h1{
-    scale: 1.8;
-}
+
 .law_card:hover{
     transform: scale(1.09);
     transition: .9s;
     cursor: pointer;
+    box-shadow: 10px 13px 10px 10px rgba(59, 59, 59, 0.683); 
 }
 .law_title{
     display: flex;
     justify-content: center;
+    scale: 3.4;
+    margin-top: 40px;
 }
-.h222{
-    scale: .7;
+.lawyerpic{
+    width: 340px;
+    height: 360px;
+    position: relative;
+    bottom: 240px;
+    right: 130px;
+}
+/* Lawyers font */
+#law_card_h2{
+    position: relative;
+    left: 110px;
+    color: #213555;
+}
+#law_card_h3{
+    position: relative;
+    left: 110px;
+    top: 20px;
+    color: #213555;
+}
+.law_card_h1{
+    scale: 1.8;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    color: #2e4a77;
 }

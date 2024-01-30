@@ -1,0 +1,40 @@
+body{
+    background-image: url("/IMGS/white-background-with-zigzag-pattern-design_1017-33197.jpg");
+    scale: 1.5;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.biggest{
+    margin-top: 200px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d1d1;
+    width: 60%;
+}
+.policies_con{
+    border: 2px solid;
+    padding: 20px;
+}
+.poli_con{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.hr{
+    background-color: #d1d1d1;
+    color: #d1d1d1;
+}
+.policies_con h5{
+    color: gray;
+}
+.aaa{
+    display: flex;
+    justify-content: center;
+}

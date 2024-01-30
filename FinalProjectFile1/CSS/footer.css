@@ -1,12 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 footer {
   color: white;
   background-color:#213555 ;
   text-align: center;
-  margin-top:500px;
+  position: relative;
+  margin-top: 500px;
 }
 .footer-div {
     position: relative;
-  bottom: 30px;
+  bottom: 10px;
 }
 .footer-links {
   list-style: none;
@@ -14,7 +21,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  height: 100px;
+  height: 160px;
 }
 .footer-links a{
   text-decoration: none;
@@ -22,6 +29,27 @@ footer {
   color: #f0f0f0;
 }
 .footer-links a:hover{
-  color: #E5D283;
-  transition: 0.5s;
+  color: #E5D283; 
+}
+
+.cp{
+  font-size: large;
+  color: rgba(237, 237, 237, 0.609);
+}
+.pppp{
+  color: gray;
+}
+.footer_logo{
+  position: absolute;
+  left: 1700px;
+  width: 150px;
+}
+.cp_div{
+  width: fit-content;
+  backdrop-filter: blur(50px);
+  margin-bottom: 10px;
+}
+.cp_div_con{
+  display: flex;
+  justify-content: center;
 }
