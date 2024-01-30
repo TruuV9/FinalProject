@@ -1,0 +1,80 @@
+body{
+    background-image: url("/IMGS/white-background-with-zigzag-pattern-design_1017-33197.jpg");
+}
+.law_con{
+    display: flex;
+    justify-content: center;
+    height: 108vh;
+    margin-top: 70px;
+}
+.Lawyers{
+    width: 90%;
+    background-color: #d1d1d1;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.law_card_con{
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: space-around;
+}
+.law_card{
+    background-color: #dedede;
+    margin: 20px;
+    margin-top: 90px;
+    padding: 120px;
+    width: 700px;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    height: 318px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+
+}
+
+.law_card:hover{
+    transform: scale(1.09);
+    transition: .9s;
+    cursor: pointer;
+    box-shadow: 10px 13px 10px 10px rgba(59, 59, 59, 0.683); 
+    height: 318.001px;
+}
+.law_title{
+    display: flex;
+    justify-content: center;
+    scale: 3.4;
+    margin: 40px;
+    margin-top: 90PX;
+}
+.lawyerpic{
+    width: 340px;
+    height: 360px;
+    position: relative;
+    bottom: 240px;
+    right: 240px;
+}
+/* Lawyers font */
+.law_card_h2{
+    position: relative;
+    left: 110px;
+    color: #213555;
+}
+.law_card_h3{
+    position: relative;
+    left: 110px;
+    top: 20px;
+    color: #213555;
+}
+.law_card_h1{
+    scale: 1.8;
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+    color: #2e4a77;
+}
+#abood{
+    height: 400px;
+    position: relative;
+    bottom: 280px;
+}

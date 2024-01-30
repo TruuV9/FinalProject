@@ -10,16 +10,16 @@ body{
     scroll-behavior: smooth;
 }
 .biggest{
-    margin-top: 200px;
+    margin-top: 360px;
     border: 2px solid;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #d1d1d1;
     width: 60%;
+    height: 80vh;
 }
 .policies_con{
-    border: 2px solid;
     padding: 20px;
 }
 .poli_con{

@@ -1,0 +1,74 @@
+#form{
+    position: relative;
+    top: 35px;
+    scale: 2.5;
+    text-align: center;
+    margin: 20px;
+}
+.form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 1.5;
+    position: relative;
+    top: 125px;
+}
+.req {
+    background-color: #ffff;
+    height: 350px;
+    text-align: center;
+    width: 1000px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+}
+.form1 {
+    gap:50px ;
+    scale: 1.5;
+    margin-top: 30px;
+}
+.input{
+    border: 1px solid #969696;
+    border-radius: 12px;
+    height:25px;
+}
+.label{
+    position: relative;
+    left: 125px;
+    color: #969696;
+}
+.req1{
+    position: relative;
+    top: 5px;
+    width: 350px;
+}
+.form1 option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.sub {
+    position: relative;
+    top: 10px;
+    background-color: #ffff;
+    color: #213555;
+}
+.sub:hover{
+    background-color: #213555;
+    color: white;
+    transition: 0.5s;
+}
+#massege{
+    padding: 50px;
+}
+.big{
+    border: 2px solid;
+    margin-top: 50px;
+    width: 90%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+}
+.bigger{
+    display: flex;
+    justify-content: center;
+}

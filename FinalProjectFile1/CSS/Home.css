@@ -63,7 +63,7 @@ body{
 
 }
 /* King Abdulaziz word */
-.king_con{
+#king_con{
     display: flex;
     justify-content: center;
 }
@@ -211,6 +211,7 @@ body{
     transition: .9s;
     cursor: pointer;
     box-shadow: 10px 13px 10px 10px rgba(59, 59, 59, 0.683); 
+    height: 318.001px;
 }
 .law_title{
     display: flex;
@@ -264,12 +265,6 @@ body{
 .moha{
     margin-bottom: 70px;
 }
-#whyus_con{
-    margin-top: 40px;
-    border: 2px solid black;
-}
-.whyus_h1{
-    margin-top: 20px;
-    border: solid red;
-}
+
+/* Social */
 

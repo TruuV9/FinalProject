@@ -4,34 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الرئيسية</title>
-    <link rel="icon" href="/IMGS/favicon.ico">
+    <link rel="icon" href="/IMGS/heading_logo.png">
     <link rel="stylesheet" href="/CSS/Home.css">
     <link rel="stylesheet" href="/CSS/Nav.css">
     <link rel="stylesheet" href="/CSS/animation.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
 </head>
 <body dir="rtl">
     <!-- NavBar -->
-    <nav class="navbar">
+    <nav id="navbar">
         <div class="navlinks">
             <ul class="navul">
                 <li><a href="/HTML/Home.html"><b>الرئيسية</b></a></li>
-                <li><a href="#idk"><b>من نحن</b></a></li>
+                <li><a href="/HTML/Home.html#idk"><b>من نحن</b></a></li>
                 <li><a href="/HTML/services.html"><b>خدماتنا</b></a></li>
-                <li><a href="#container"><b>المحامين</b></a></li>
-                <li><a href="#contact"><b>تواصل معنا</b></a></li>
+                <li><a href="/HTML/Home.html#container"><b>المحامين</b></a></li>
+                <li><a href="/HTML/Contact.html"><b>تواصل معنا</b></a></li>
             </ul>
         </div>
             <a href="/HTML/Home.html"><img class="logo" src="/IMGS/logo.png"></a>
+            <span class="logo_title"><b>ميزان العدل</b></span>
         <div class="buttons_div">
-                <button id="login" class="nav_button" type="button">تسجيل دخول  </button>
-                <button id="signin" class="nav_button" type="button"><a href="/HTML/Signin.html">إنشاء حساب</a></button>
-            </div>
-        </nav>
+                <button id="login" class="nav_button" type="button">إنشاء حساب</button>
+                <button id="signin" class="nav_button" type="button">تسجيل الدخول</button>
+        </div>
+    </nav>
 
             <section class="biggest">
 
             <!-- King Abdulaziz Word -->
-            <section class="king_con">
+            <section id="king_con">
         <section class="KingAbdu">
             <div class="Word">
                 <h1 class="KingWord">” لا كبير عندي إلا الضعيف حتى آخذ له</h1>
@@ -127,12 +129,12 @@
                 <section class="flex">
                     <!-- Card 1 -->
                 <div class="card">
-                    <img class="img1 card-icon" src="/IMGS/Building.svg" >
+                    <a href="/HTML/trading.html"><img class="img1 card-icon" src="/IMGS/Building.svg" ></a>
                     <h2 class="h">القسم التجاري</h2>
                 </div>
                 <!-- Card 2 -->
                 <div class="card">
-                    <img class="img1 card-icon" src="/IMGS/icont555.svg">
+                    <a href="/HTML/crime.html"><img class="img1 card-icon" src="/IMGS/icont555.svg"></a>
                     <h2 class="h">القسم الإجرامي</h2>
                 </div>
                 <!-- Card 3 -->
@@ -148,7 +150,7 @@
                 </div>
                 <!-- Card 5 -->
                 <div class="card">
-                    <img class="img1 card-icon" src="/IMGS/Building.svg">
+                    <a href="/HTML/public.html"><img class="img1 card-icon" src="/IMGS/Building.svg"></a>
                     <h2 class="h">القسم العام</h2>
                 </div>
                 </section>
@@ -184,7 +186,7 @@
             
         </section>
         <section class="moha">
-            <a href="/HTML/Mohannaed2.html" target="_blank">
+            <a href="/HTML/Mohannaed2.html" target="_self">
                 <div class="law_card" id="moha_card">
                     <h1 class="law_card_h1" id="moha_h1">المحامي مهند الشريف</h1>
                     <h2 class="law_card_h2" id="moha_h2">القسم: العام</h2>
@@ -196,14 +198,33 @@
     </section>
 </section>
 
-    <section id="whyus_con">
-        <section class="whyus">
-            <div class="whyus_h1">
-                <h1>لماذا نحن?</h1>
-            </div>
-        </section>
-    </section>
+    
+
+    
 
     </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div>
+            <a href="/HTML/Home.html">            <img class="footer_logo" src="/IMGS/logo.png">
+            </a>
+        </div>
+        <div class="footer-div">
+            <ul class="footer-links">
+                <li><a href="#navbar">الرئيسية</a></li>
+                <li><a href="#idk">من نحن</a> </li>
+                <li><a href="#container">المحامين</a></li>
+                <li><a href="/HTML/policies.html">سياسة الخصوصية</a></li>
+                <li><a href="/HTML/services.html">خدماتنا</a></li>
+            </ul>
+            <p class="pppp">المصممين: نواف المطيري و تركي المطيري و فارس الحربي</p><br>
+            <p class="pppp">بإشراف: الأستاذة أميرة وسماح والأستاذ علي اليحيى</p> <br><br>
+            <div class="cp_div_con">
+            <div class="cp_div">
+            <p class="cp">&copy; جميع الحقوق محفوظة لشركة ميزان العدل 2024</p>
+            </div>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
