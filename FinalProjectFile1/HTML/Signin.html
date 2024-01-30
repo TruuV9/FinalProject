@@ -12,29 +12,24 @@
 <div class="Sing-up-box">
   <h1>انشاء حساب</h1>
   <form class="req">
-    <input type="text" placeholder="اسمك الثلاثي">
-    <input type="email" placeholder="عنوان البريد الإلكتروني ">
-    <input type="password" placeholder="كلمة المرور">
-    <input type="password" placeholder="اكتب كلمة المرور مرة اخرى">
+    <div class="info3">
+    <input type="text" name="name" id="name" placeholder="اسمك الثلاثي" required>
+    <input type="email" name="email" id="email" placeholder="عنوان البريد الإلكتروني " required>
+    <input type="password" name="pass" id="pass" placeholder="كلمة المرور" required>
+    <input type="password" name="pass" id="pass" placeholder="اكتب كلمة المرور مرة اخرى" required>
+    </div>
+    <div class="check">
+    <label for="">بالضغط على هذا الزر انت توافق على <br><a class="link" href=""><b>الشروط والاحكام</b></a></label>
+    <input type="checkbox" required>
+    </div>
+  <p id="acc">لديك <a class="link" href="/HTML/sing.in.html"><b>حساب</b></a>?</p>
+    
+  <a href="/HTML/Home.html" target="_blank">
+    <div class="sub_div">
+    <input class="sub" type="submit" value="انشاء حساب">
+  </div>
+  </a>
   </form>
-<div class="checkbox-wrapper">
-<p>بالضغط علئ الزر فانك ستوافق علئ <br>
-<a href="#">الشروط ولاحكام</a>
-  <input checked="" type="checkbox" class="check" id="check1-61">
-  <label for="check1-61" class="label">
-    <svg width="45" height="45" viewBox="0 0 95 95">
-      <rect x="30" y="20" width="50" height="50" stroke="black" fill="none"></rect>
-      <g transform="translate(0,-952.36222)">
-        <path d="m 56,963 c -102,122 6,9 7,9 17,-5 -66,69 -38,52 122,-77 -7,14 18,4 29,-11 45,-43 23,-4" stroke="black" stroke-width="3" fill="none" class="path1"></path>
-      </g>
-    </svg>
-    <span>موافق</span>
-  </label>
-  <p>لديك <a href="/HTML/sing.in.html">حساب</a></p>
-  <button class="sub">
-    <a href="/HTML/Home.html">انشاء حساب</a>
-  </button>
-</div>
 </section>
 
 
