@@ -1,0 +1,98 @@
+body{
+    background-image: url("/IMGS/white-background-with-zigzag-pattern-design_1017-33197.jpg");
+    scale: 1.5;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.biggest{
+    margin-top: 200px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d1d1;
+    width: 100%;
+}
+.policies_con{
+    border: 2px solid;
+    padding: 20px;
+}
+.poli_con{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+.hr{
+    background-color: #d1d1d1;
+    color: #d1d1d1;
+}
+.policies_con h5{
+    color: gray;
+}
+.aaa{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  footer {
+    color: white;
+    background-color:#213555 ;
+    text-align: center;
+    position: relative;
+    margin-top: 300px;
+  }
+  .footer-div {
+      position: relative;
+    bottom: 10px;
+  }
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 160px;
+  }
+  .footer-links a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+  }
+  .footer-links a:hover{
+    color: #E5D283; 
+  }
+  
+  .cp{
+    font-size: large;
+    color: rgba(237, 237, 237, 0.609);
+  }
+  .pppp{
+    color: gray;
+  }
+  .footer_logo{
+    position: absolute;
+    left: 1700px;
+    width: 150px;
+  }
+  .cp_div{
+    width: fit-content;
+    backdrop-filter: blur(50px);
+    margin-bottom: 10px;
+  }
+  .cp_div_con{
+    display: flex;
+    justify-content: center;
+  }
