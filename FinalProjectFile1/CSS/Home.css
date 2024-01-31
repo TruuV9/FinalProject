@@ -41,7 +41,7 @@ body{
 
 }
 .card{
-    width: 27%;
+    width: 26%;
     text-align: center;
     display: inline-block;
     height: 520px;
@@ -266,5 +266,25 @@ body{
     margin-bottom: 70px;
 }
 
-/* Social */
-
+/* Contact button */
+.contacticon{
+    width: fit-content;
+    margin-right: 10px;
+}
+.contactdiv{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 750px;
+    width: fit-content;
+    background-color: #446395;
+    z-index: 102;
+    border-radius: 2px;
+}
+.contactimg{
+    width: 100px;
+    height: 100px;
+}
+.contactimg:hover{
+    filter: invert(100%);
+    transition: .5s;
+}
