@@ -41,6 +41,7 @@ h1 {
 .card:hover {
     background-color:#213555;
     transition: 0.5s;
+    cursor: pointer;
     box-shadow: 10px 13px 10px 10px rgba(59, 59, 59, 0.683); 
 }
 .cards { 

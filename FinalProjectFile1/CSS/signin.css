@@ -179,3 +179,9 @@ body{
   .sub_div{
     width: fit-content;
   }
+  .footer-div{
+    margin-top: 40px;
+  }
+  .footer{
+    padding: 1px;
+  }
