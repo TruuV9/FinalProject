@@ -274,7 +274,7 @@ body{
 .contactdiv{
     position: -webkit-sticky; 
     position: sticky;
-    top: 750px;
+    top: 1150px;
     width: fit-content;
     background-color: #213555;
     z-index: 102;
