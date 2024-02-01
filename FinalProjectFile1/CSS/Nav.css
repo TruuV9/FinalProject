@@ -61,11 +61,11 @@ body{
     transition: all 250ms
 }
 #login::before{
-    background-color: #E5D283;
+    background-color: #b7ae8e;
 
 }
 #signin::before{
-    background-color: #E5D283;
+    background-color: #b7ae8e;
 
 }  
 #login:hover {
@@ -98,7 +98,7 @@ body{
     color: #113946;
 }
 .navul a:hover {
-    color: #E5D283; 
+    color: #213555; 
 }
 nav ul li a::before {
     content: '';
