@@ -32,6 +32,9 @@
     border-radius: 12px;
     height:25px;
 }
+.input:hover{
+    cursor: pointer;
+}
 .label{
     position: relative;
     left: 125px;
